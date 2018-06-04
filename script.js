@@ -32,3 +32,9 @@ function redirectToGoogle(){
 }
 
 /* Task 4 using jQery */
+
+// Task 4a
+$('#addTask4').clik(function(event)){
+    var pragraph = $('<p>').text('Hello World')
+    $('#Task4a').append(pragraph)
+}
