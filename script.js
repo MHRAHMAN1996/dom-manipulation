@@ -34,7 +34,13 @@ function redirectToGoogle(){
 /* Task 4 using jQery */
 
 // Task 4a
-$('#addTask4').clik(function(event)){
+$('#addTask4').click(function(event){
     var pragraph = $('<p>').text('Hello World')
     $('#Task4a').append(pragraph)
+})
+
+// Task 4b
+function changeBG (event){
+    var color = " even.target.linerText.toLowerCase()";
+    $('body').css('backgroundColor',color)
 }
